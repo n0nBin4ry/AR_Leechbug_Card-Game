@@ -79,8 +79,8 @@ public class Fish : MonoBehaviour
         CombatManager.Instance.AssignToTeam(this);
         
         // DEBUG
-        if (CombatManager.Instance.NumFish >= 2)
-            CombatManager.Instance.InitializeCombat();
+        //if (CombatManager.Instance.NumFish >= 2)
+        //    CombatManager.Instance.InitializeCombat();
         
         // initialize self in this AR version
         Initialize();

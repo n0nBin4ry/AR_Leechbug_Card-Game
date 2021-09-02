@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,5 +21,11 @@ public class FieldDivider : MonoBehaviour {
     private void Start() {
         // assign self to combat manager
         CombatManager.Instance.AssignFieldDivider(this); 
+    }
+
+    private void Update() {
+        // debug
+        if (Input.GetKeyDown(KeyCode.Space))
+            CombatManager.Instance.InitializeCombat();
     }
 }

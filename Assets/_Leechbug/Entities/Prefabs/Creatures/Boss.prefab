@@ -222,7 +222,7 @@ Transform:
   m_GameObject: {fileID: 3844957344224032256}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
   - {fileID: 7887086615086766736}
   - {fileID: 2339000526754849343}
@@ -266,9 +266,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data: {fileID: 11400000, guid: af83fb6914ce12f46abadc415656b107, type: 2}
+  nickname: 
   mesh: {fileID: 7021768830414442271}
   eliteData: {fileID: 0}
-  eliteSpawnRate: 0
   StatusEffects: []
 --- !u!136 &6165558119144451448
 CapsuleCollider:

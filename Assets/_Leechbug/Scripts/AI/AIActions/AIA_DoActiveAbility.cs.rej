@@ -1,0 +1,11 @@
+diff a/Assets/_Leechbug/Scripts/AI/AIActions/AIA_DoActiveAbility.cs b/Assets/_Leechbug/Scripts/AI/AIActions/AIA_DoActiveAbility.cs	(rejected hunks)
+@@ -89,8 +89,7 @@
+ 		// get all possible targets for the aoe ability
+ 		List<Fish> possibleTargets = new List<Fish>();
+ 		if (controller.ParentFish.Faction == FishFaction.FRIENDLY) {
+-			foreach (var swarm in controller.CombatManager.EnemySwarms)
+-				possibleTargets.AddRange(swarm.GetFishInSwarm());
++			possibleTargets.AddRange(controller.CombatManager.enemySwarm.GetFishInSwarm());
+ 		}
+ 		else if (controller.ParentFish.Faction == FishFaction.ENEMY) {
+ 			possibleTargets.AddRange(controller.CombatManager.PlayerSwarm.GetFishInSwarm());

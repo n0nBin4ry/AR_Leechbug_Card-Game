@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3664705171916429438
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6558881921330468391}
+  - component: {fileID: -1214396353217685393}
+  m_Layer: 0
+  m_Name: BulwarkBreamPassiveAbility
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6558881921330468391
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3664705171916429438}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-1214396353217685393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3664705171916429438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374f87eba1c421345b83911ccd0f137d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ParentFish: {fileID: 0}
+  Title: Second Wind
+  Description: '<b>Second Wind</b> - After dropping below 50% health, become <color=mightyColor><i>Mighty</i></color>
+    for 20 seconds. Cannot be activated again for 8 seconds.
+
+
+    mightyDescription'
+  healthFractionThreshold: 0.5
+  stackCooldown: 8
+  buffDuration: 20
+  visualEffect: {fileID: 4091581577464949355, guid: 2a1b1ec8b1e1075409a3e54537f6ccfa,
+    type: 3}
+  statusEffect: {fileID: -5206922141842282912, guid: a610b22e43e09cc4799636566da97ea6,
+    type: 3}
+  StackCooldownTimer: 0

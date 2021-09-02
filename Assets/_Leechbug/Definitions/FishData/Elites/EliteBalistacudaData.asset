@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f58d283f0a076a140a0986cd1aca230d, type: 3}
+  m_Name: EliteBalistacudaData
+  m_EditorClassIdentifier: 
+  creatureName: Balistacuda Elite
+  namingAbbreviation: BCElite
+  isLeechbug: 0
+  maxHealth: 90
+  basicAttack: {fileID: 3481532208183343267, guid: fb3c74b39304ea04ea1424c60c44582b,
+    type: 3}
+  activeAbility: {fileID: -4940993995269828092, guid: 6e82008432515f640940c4da93ae365b,
+    type: 3}
+  passiveAbility: {fileID: 9092379826869139805, guid: 78e5cad4e560d4a4a84ff088212bd78f,
+    type: 3}
+  maxSpeed: 20
+  acceleration: 15
+  rotationAcceleration: 12
+  detectionRange: 20
+  detectionAngle: 180
+  BubbleTrail: {fileID: 3958878875686597389, guid: 5b673bfdf09ca884b9e5c81a61de17bf,
+    type: 3}
+  DefaultCombatBehaviorInfo: {fileID: 11400000, guid: aab018f610c310049b62328a6e22320b,
+    type: 2}
+  DefaultIdleBehaviorInfo: {fileID: 11400000, guid: adf4430589c5f134d8153f758e839db0,
+    type: 2}
+  baseBodyMaterial: {fileID: 2100000, guid: 32cea5f14057b5a4c830308860640ebe, type: 2}
+  scaleModifier: {x: 1.5, y: 1.5, z: 1.5}
+  uiIcon: {fileID: 21300000, guid: 884d915bb5c0ccc49873438299038160, type: 3}
+  crySfx: {fileID: 2310417089258880562, guid: 6334ea146d8c7f14b8c8cb417347b090, type: 3}

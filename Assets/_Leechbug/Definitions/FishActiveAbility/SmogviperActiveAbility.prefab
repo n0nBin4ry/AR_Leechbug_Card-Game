@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8328648574031080561
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7194992006760653379}
+  - component: {fileID: 9173252411734261140}
+  m_Layer: 0
+  m_Name: SmogviperActiveAbility
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7194992006760653379
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8328648574031080561}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9173252411734261140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8328648574031080561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b59af347c8902d44915edb298992d82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Title: Poison Dart
+  cooldown: 6
+  range: 0
+  damage: 0
+  healing: 0
+  Description: "<b>Reaper Dart</b> - Projectile attack, deals damage to its target
+    equal to twice the number of seconds of <color=poisonColor><i>Poisoned</color></i>
+    it has on it.  Inflicts <color=virulentColor><i>Virulent</color></i> for 16 seconds.
+    \n\n6 second cooldown.\n\nvirulentDescription\n\npoisonDescription\n"
+  speed: 30
+  castTime: 0.2
+  projectileRange: 40
+  projectilePrefab: {fileID: 272601743260649927, guid: 911c1777b1899f54d839d613ba066d45,
+    type: 3}
+  _virulentStatusEffect: {fileID: -5335116979790209351, guid: 86e73e7e9da08d648bca459303f33e20,
+    type: 3}
+  _virulentDuration: 16

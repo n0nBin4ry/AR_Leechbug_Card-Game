@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddc6c340396b5164c934e808f3624aaa, type: 3}
+  m_Name: CenterOfAttention
+  m_EditorClassIdentifier: 
+  BehaviorName: CenterOfAttention
+  DecisionBrainState: {fileID: 11400000, guid: dfefac8b1e8f9ab46a1ec1f2019d5643, type: 2}
+  InitState: {fileID: 0}
+  Options:
+  - State: {fileID: 11400000, guid: 2c9e4ab96d239a549916e83931df827e, type: 2}
+    CooldownTime: 1
+    CooldownCounter: 0
+    CostAI: 3
+  - State: {fileID: 11400000, guid: 370570556c823c841b883a8e404a2473, type: 2}
+    CooldownTime: 2
+    CooldownCounter: 0
+    CostAI: 2
+  - State: {fileID: 11400000, guid: c851d62e8218c0a45851d1b36ee5f68d, type: 2}
+    CooldownTime: 2
+    CooldownCounter: 0
+    CostAI: 1
+  LastOptionIndex: -1
+  EveryLoopActions:
+  - {fileID: 11400000, guid: 092a5f70f1bc7b74397d73b9424bf4c2, type: 2}
+  EveryLoopTransitions:
+  - Condition: {fileID: 11400000, guid: 39d02b51b9f15634b94f86dfc133673a, type: 2}
+    TrueState: {fileID: 11400000, guid: 0c017107a5c23e045a04ccd1f6e6f256, type: 2}
+    FalseState: {fileID: 0}

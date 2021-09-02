@@ -1,0 +1,18 @@
+diff a/Assets/_Leechbug/Scripts/AI/AIActions/AIA_GetLeastTargettedEnemyTarget.cs b/Assets/_Leechbug/Scripts/AI/AIActions/AIA_GetLeastTargettedEnemyTarget.cs	(rejected hunks)
+@@ -24,14 +24,12 @@
+ 		List<Fish> enemies = new List<Fish>();
+ 		List<Fish> friendlies = new List<Fish>();
+ 		if (controller.ParentFish.Faction == FishFaction.FRIENDLY) {
+-			foreach (var swarm in controller.CombatManager.EnemySwarms)
+-				enemies.AddRange(swarm.GetFishInSwarm());
++			enemies.AddRange(controller.CombatManager.enemySwarm.GetFishInSwarm());
+ 			friendlies.AddRange(controller.CombatManager.PlayerSwarm.GetFishInSwarm());
+ 		}
+ 		else {
+ 			enemies.AddRange(controller.CombatManager.PlayerSwarm.GetFishInSwarm());
+-			foreach (var swarm in controller.CombatManager.EnemySwarms)
+-				friendlies.AddRange(swarm.GetFishInSwarm());
++			friendlies.AddRange(controller.CombatManager.enemySwarm.GetFishInSwarm());
+ 		}
+ 
+ 		// search all to see which enemy has been targeted by the least friendlies

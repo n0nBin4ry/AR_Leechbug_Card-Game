@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3664705171916429438
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6558881921330468391}
+  - component: {fileID: -6043419995319934328}
+  m_Layer: 0
+  m_Name: BulwarkBreamActiveAbility
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6558881921330468391
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3664705171916429438}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7851841461755353383}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-6043419995319934328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3664705171916429438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd20d5d8ac484275a945e29b0944defe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Title: Pile In
+  cooldown: 7
+  range: 11
+  damage: 0
+  healing: 0
+  Description: "<b>Pile In</b> - Quickly pull all enemies within range toward this
+    fish.  \n\n7 second cooldown.\r"
+  _pullRange: 11
+  _pullTime: 0.2
+  _holdTime: 0.8
+  _trailEffectPrefab: {fileID: 5800972507020310077, guid: 17b61f1c757d74f1f8dbc9d9692a7f77,
+    type: 3}
+  _pullEffectPrefab: {fileID: 8348505213451734233, guid: 487db99164aa83242955689d9a641e99,
+    type: 3}
+  _rangeIndicatorPrefab: {fileID: 3288111452126949317, guid: 882abf461a8dd9a4c985257f8148288b,
+    type: 3}
+--- !u!1001 &7857556210217097649
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6558881921330468391}
+    m_Modifications:
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821087255678552379, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: _activeAbility
+      value: 
+      objectReference: {fileID: -6043419995319934328}
+    - target: {fileID: 8425343401151976350, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_Name
+      value: RangeAura_CC
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4fb33bfcd11f1564f843ec5ac076b2d8, type: 3}
+--- !u!4 &7851841461755353383 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+    type: 3}
+  m_PrefabInstance: {fileID: 7857556210217097649}
+  m_PrefabAsset: {fileID: 0}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961be3d7cfb3876478ae666666a66c77, type: 3}
+  m_Name: DoBasicAttackEnemy
+  m_EditorClassIdentifier: 
+  gizmoColor: {r: 1, g: 0, b: 0, a: 1}
+  Actions:
+  - {fileID: 11400000, guid: b2188dd7a1d000747a83203fd9f574de, type: 2}
+  Transitions:
+  - Condition: {fileID: 11400000, guid: b48e27a858e5f8045bc634ef35bd11c0, type: 2}
+    TrueState: {fileID: 11400000, guid: d4884718e470cf34f82eff8f98abd8af, type: 2}
+    FalseState: {fileID: 0}
+  - Condition: {fileID: 11400000, guid: cdd899bf602a084439036712520730b9, type: 2}
+    TrueState: {fileID: 11400000, guid: 2e1bcbb237d44d9409b944fdfbaeec62, type: 2}
+    FalseState: {fileID: 11400000, guid: a4a20af9da06b164bb84139a36fb25c7, type: 2}
+  - Condition: {fileID: 11400000, guid: b9d0882aaf1f6e243954090da538170e, type: 2}
+    TrueState: {fileID: 11400000, guid: b616ae525fe7d2841bbe831a9e6d83ca, type: 2}
+    FalseState: {fileID: 0}

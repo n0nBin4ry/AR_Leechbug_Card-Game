@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3664705171916429438
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6558881921330468391}
+  - component: {fileID: -3179899042418976498}
+  m_Layer: 0
+  m_Name: MoonrayDancerActiveAbility
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6558881921330468391
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3664705171916429438}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1528965240245746973}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-3179899042418976498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3664705171916429438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cc76f9fa0654451994fb585cce795b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Title: Soothing Mark
+  cooldown: 5
+  range: 13
+  damage: 0
+  healing: 16
+  Description: "<b>Soothing Mark</b> - The closest injured ally restores 16 health.
+    \n\n5 second cooldown.\r"
+  healReceivedFx: {fileID: 3823392186927800379, guid: c776038980d39ae4ba06196c3d577f39,
+    type: 3}
+  healSourceFx: {fileID: 4091581577464949355, guid: c6c573ab29298e5458ec00316b4b521a,
+    type: 3}
+  healTrailFx: {fileID: 9171762514791539050, guid: 59d26861e33b6a940aeb648cdfb0e07f,
+    type: 3}
+  healStatusEffect: {fileID: -3689229735934505333, guid: 72bc396c566b42a44b728af532d362ef,
+    type: 3}
+  healTrailLerp: 0
+--- !u!1001 &3798254887489923706
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6558881921330468391}
+    m_Modifications:
+    - target: {fileID: 530187917903994570, guid: 252d6ea6bcfcc5942b1d88b3d66925f6,
+        type: 3}
+      propertyPath: _activeAbility
+      value: 
+      objectReference: {fileID: -3179899042418976498}
+    - target: {fileID: 2414463192596879207, guid: 252d6ea6bcfcc5942b1d88b3d66925f6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2414463192596879207, guid: 252d6ea6bcfcc5942b1d88b3d66925f6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2414463192596879207, guid: 252d6ea6bcfcc5942b1d88b3d66925f6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2414463192596879207, guid: 252d6ea6bcfcc5942b1d88b3d66925f6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2414463192596879207, guid: 252d6ea6bcfcc5942b1d88b3d66925f6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2414463192596879207, guid: 252d6ea6bcfcc5942b1d88b3d66925f6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2414463192596879207, guid: 252d6ea6bcfcc5942b1d88b3d66925f6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2414463192596879207, guid: 252d6ea6bcfcc5942b1d88b3d66925f6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2414463192596879207, guid: 252d6ea6bcfcc5942b1d88b3d66925f6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2414463192596879207, guid: 252d6ea6bcfcc5942b1d88b3d66925f6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2414463192596879207, guid: 252d6ea6bcfcc5942b1d88b3d66925f6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6093878118766691439, guid: 252d6ea6bcfcc5942b1d88b3d66925f6,
+        type: 3}
+      propertyPath: m_Name
+      value: RangeAura_Heal
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 252d6ea6bcfcc5942b1d88b3d66925f6, type: 3}
+--- !u!4 &1528965240245746973 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2414463192596879207, guid: 252d6ea6bcfcc5942b1d88b3d66925f6,
+    type: 3}
+  m_PrefabInstance: {fileID: 3798254887489923706}
+  m_PrefabAsset: {fileID: 0}

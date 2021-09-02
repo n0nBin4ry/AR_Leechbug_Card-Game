@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD:Assets/_Leechbug/Art/Materials/Generic_DefenderMaterial-Body.mat.meta
+guid: 0d5e3e2bbd1fcd340aa890b1be461d0e
+=======
+guid: c593e8b861b2fae4d825c12de14d0d9c
+>>>>>>> inspection-integration:Assets/_Leechbug/Definitions/AI_Definitions/Actions/DoMelee.asset.meta
+NativeFormatImporter:
+=======
+<<<<<<< HEAD:Assets/Plugins/Sirenix/Demos/Custom Drawers.unitypackage.meta
+guid: a024a5993b658684f87db30593947dc1
+DefaultImporter:
+=======
+guid: 0d5e3e2bbd1fcd340aa890b1be461d0e
+NativeFormatImporter:
+>>>>>>> fb8e116d600a69d687ac4d75a2f0d842a9bb0da9:Assets/_Leechbug/Art/Materials/Generic_DefenderMaterial-Body.mat.meta
+>>>>>>> inspection-integration
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

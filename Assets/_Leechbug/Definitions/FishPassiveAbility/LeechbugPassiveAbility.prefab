@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4310182187684788750
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4311187009858579304}
+  - component: {fileID: -8975835307628469824}
+  m_Layer: 0
+  m_Name: LeechbugPassiveAbility
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4311187009858579304
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4310182187684788750}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 61.41715, y: -104.128586, z: -322.69452}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-8975835307628469824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4310182187684788750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57823fb9b91037c43a9daecf6e9c3a12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ParentFish: {fileID: 0}
+  Title: Pilot the Hivemind
+  Description: <b>Pilot the Hivemind</b> - Upon recruiting another fish, the leechbug
+    may enter and control it instead of remaining vulnerable outside of a fish.
+  _statusEffect: {fileID: 6489555020969481208, guid: ddb0e0e73bcb7954baacc9b6bc8ea798,
+    type: 3}
+  _duration: 10

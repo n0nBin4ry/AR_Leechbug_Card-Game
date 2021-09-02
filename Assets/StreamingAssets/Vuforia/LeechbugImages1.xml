@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Sunraydancer" size="0.338666 0.338666" />
+    <ImageTarget name="Smogviper" size="0.338666 0.338666" />
+    <ImageTarget name="Shockguppy" size="0.338666 0.338666" />
+    <ImageTarget name="Moonraydancer" size="0.338666 0.338666" />
+    <ImageTarget name="Citadeltuna" size="0.338666 0.338666" />
+    <ImageTarget name="Bulwarkbream" size="0.338666 0.338666" />
+    <ImageTarget name="Borefish" size="0.338666 0.338666" />
+    <ImageTarget name="Blightspore" size="0.338666 0.338666" />
+    <ImageTarget name="Ballistacuda" size="0.338700 0.338700" />
+  </Tracking>
+</QCARConfig>

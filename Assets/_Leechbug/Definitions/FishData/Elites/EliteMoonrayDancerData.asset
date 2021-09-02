@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f58d283f0a076a140a0986cd1aca230d, type: 3}
+  m_Name: EliteMoonrayDancerData
+  m_EditorClassIdentifier: 
+  creatureName: Moonray Dancer Elite
+  namingAbbreviation: MDElite
+  isLeechbug: 0
+  maxHealth: 120
+  basicAttack: {fileID: 3481532208183343267, guid: 70c4fba1d9a359e448c2316bc980f719,
+    type: 3}
+  activeAbility: {fileID: -3179899042418976498, guid: 822ea4b2221ab464694b9b6d9eb4a828,
+    type: 3}
+  passiveAbility: {fileID: 4910137276017588332, guid: 88d01cc36f8215147ba61287f7e259a4,
+    type: 3}
+  maxSpeed: 15
+  acceleration: 15
+  rotationAcceleration: 12
+  detectionRange: 20
+  detectionAngle: 180
+  BubbleTrail: {fileID: 3958878875686597389, guid: 5b673bfdf09ca884b9e5c81a61de17bf,
+    type: 3}
+  DefaultCombatBehaviorInfo: {fileID: 11400000, guid: aab018f610c310049b62328a6e22320b,
+    type: 2}
+  DefaultIdleBehaviorInfo: {fileID: 11400000, guid: adf4430589c5f134d8153f758e839db0,
+    type: 2}
+  baseBodyMaterial: {fileID: 2100000, guid: becf62a6dba11d84b97537a0a1cf842f, type: 2}
+  scaleModifier: {x: 1.5, y: 1.5, z: 1.5}
+  uiIcon: {fileID: 21300000, guid: 9d0cabb73c46db74a93af0979607be5e, type: 3}
+  crySfx: {fileID: 2310417089258880562, guid: 89d175770ddcf524d98a1a6cac2996c6, type: 3}

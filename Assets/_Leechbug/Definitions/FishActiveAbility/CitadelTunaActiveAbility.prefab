@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &56613933472451142
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 56613933472451136}
+  - component: {fileID: 56613933472451143}
+  m_Layer: 0
+  m_Name: CitadelTunaActiveAbility
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &56613933472451136
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56613933472451142}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5617039749996816691}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &56613933472451143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56613933472451142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2a342c88c9593e40b9160fbbd10d606, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Title: Rally
+  cooldown: 9
+  range: 10
+  damage: 0
+  healing: 0
+  Description: "<b>Rally</b> - All OTHER allies gain <color=invincibleColor><i>Invincible</i></color>
+    for 3 seconds . \n\n9 second cooldown.\n\ninvincibleDescription"
+  _statusEffect: {fileID: 6489555020969481208, guid: ddb0e0e73bcb7954baacc9b6bc8ea798,
+    type: 3}
+  _rangeIndicatorPrefab: {fileID: 3288111452126949317, guid: 882abf461a8dd9a4c985257f8148288b,
+    type: 3}
+  _range: 10
+  _duration: 3
+  _buffReceivedFx: {fileID: 8047071685545807836, guid: 02830a752eba8e542bb69ca51bf61d2b,
+    type: 3}
+--- !u!1001 &5480676705430677925
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 56613933472451136}
+    m_Modifications:
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821087255678552379, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: _activeAbility
+      value: 
+      objectReference: {fileID: 56613933472451143}
+    - target: {fileID: 8425343401151976350, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_Name
+      value: RangeAura
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4fb33bfcd11f1564f843ec5ac076b2d8, type: 3}
+--- !u!4 &5617039749996816691 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+    type: 3}
+  m_PrefabInstance: {fileID: 5480676705430677925}
+  m_PrefabAsset: {fileID: 0}

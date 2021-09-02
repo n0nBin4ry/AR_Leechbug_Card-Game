@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a335b6f71fce3d6418a83403ac0824a5, type: 3}
+  m_Name: NotAtSwimAway-And-NotAtDestroy
+  m_EditorClassIdentifier: 
+  Cond1: {fileID: 11400000, guid: 985319ca992df7246bb9fd3e47e855ec, type: 2}
+  Not1: 1
+  Cond2: {fileID: 11400000, guid: 1cd7abcf1269a8d449f56d76ca1853a8, type: 2}
+  Not2: 1

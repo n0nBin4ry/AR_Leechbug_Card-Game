@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3664705171916429438
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6558881921330468391}
+  - component: {fileID: -4940993995269828092}
+  m_Layer: 0
+  m_Name: BalistacudaActiveAbility
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6558881921330468391
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3664705171916429438}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 738829508891149790}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-4940993995269828092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3664705171916429438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56356b4efa514ca3a78aca3c4333ec7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Title: Cannon Launch
+  cooldown: 6
+  range: 6
+  damage: 5
+  healing: 0
+  Description: "<b>Cannon Launch</b> - ANY fish in a small area in front of this
+    fish is launched in the direction this fish is facing.  Enemies launched also
+    take 5 damage.  \n\n6 second cooldown.\r"
+  _pushRange: 25
+  _pushTime: 0.6
+  _trailEffectPrefab: {fileID: 5800972507020310077, guid: 6a83701f40e87a34da0321d1e3088e68,
+    type: 3}
+  _pushEffectPrefab: {fileID: 1602461815125663255, guid: e5594ea8764e49e43b98b85d47746e7d,
+    type: 3}
+  _angle: 60
+--- !u!1001 &845590474922362184
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6558881921330468391}
+    m_Modifications:
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821087255678552379, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: _activeAbility
+      value: 
+      objectReference: {fileID: -4940993995269828092}
+    - target: {fileID: 8425343401151976350, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+        type: 3}
+      propertyPath: m_Name
+      value: RangeAura_CC
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4fb33bfcd11f1564f843ec5ac076b2d8, type: 3}
+--- !u!4 &738829508891149790 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 143268051146178710, guid: 4fb33bfcd11f1564f843ec5ac076b2d8,
+    type: 3}
+  m_PrefabInstance: {fileID: 845590474922362184}
+  m_PrefabAsset: {fileID: 0}

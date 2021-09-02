@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddc6c340396b5164c934e808f3624aaa, type: 3}
+  m_Name: IdleFollowPlayer
+  m_EditorClassIdentifier: 
+  BehaviorName: Follow Player
+  DecisionBrainState: {fileID: 11400000, guid: 272b1046b0b534e488cc3b8d845c8200, type: 2}
+  InitState: {fileID: 0}
+  Options:
+  - State: {fileID: 11400000, guid: a8550594e9721ef4eaec8599cd056500, type: 2}
+    CooldownTime: 0
+    CooldownCounter: 0
+    CostAI: 0
+  LastOptionIndex: -1
+  EveryLoopActions: []
+  EveryLoopTransitions:
+  - Condition: {fileID: 11400000, guid: 39d02b51b9f15634b94f86dfc133673a, type: 2}
+    TrueState: {fileID: 11400000, guid: 0c017107a5c23e045a04ccd1f6e6f256, type: 2}
+    FalseState: {fileID: 0}

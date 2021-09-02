@@ -1,0 +1,22 @@
+diff a/Assets/_Leechbug/Scripts/AI/AIActions/AIA_GetLowestHealthSupportTarget.cs b/Assets/_Leechbug/Scripts/AI/AIActions/AIA_GetLowestHealthSupportTarget.cs	(rejected hunks)
+@@ -34,14 +34,12 @@
+ 			}
+ 		}
+ 		else if (controller.ParentFish.Faction == FishFaction.ENEMY) {
+-			foreach (var swarm in controller.CombatManager.EnemySwarms) {
+-				foreach (var fish in swarm.GetFishInSwarm()) {
+-					if (fish != null && fish != controller.ParentFish
+-					&& !fish.Defeated
+-					&& fish.Health.GetHealthFraction() < minHealth) {
+-						minHealth = fish.Health.GetHealthFraction();
+-						newTarget = fish;
+-					}
++			foreach (var fish in controller.CombatManager.enemySwarm.GetFishInSwarm()) {
++				if (fish != null && fish != controller.ParentFish
++				&& !fish.Defeated
++				&& fish.Health.GetHealthFraction() < minHealth) {
++					minHealth = fish.Health.GetHealthFraction();
++					newTarget = fish;
+ 				}
+ 			}
+ 		}

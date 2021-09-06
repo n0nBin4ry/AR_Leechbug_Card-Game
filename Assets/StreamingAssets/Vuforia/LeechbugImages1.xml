@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="LeechbugLogo_8bit" size="0.452966 0.657753" />
     <ImageTarget name="Sunraydancer" size="0.338666 0.338666" />
     <ImageTarget name="Smogviper" size="0.338666 0.338666" />
     <ImageTarget name="Shockguppy" size="0.338666 0.338666" />

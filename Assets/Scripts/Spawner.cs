@@ -29,8 +29,11 @@ public class Spawner : MonoBehaviour {
         _hasSpawned = true;
 
         if (_spawnedPrefab) {
-            _spawnedObj =
-                GameObject.Instantiate(_spawnedPrefab, transform.position, transform.rotation, transform.parent);
+            _spawnedObj = 
+                GameObject.Instantiate(_spawnedPrefab, transform.parent);
+                //GameObject.Instantiate(_spawnedPrefab, Vector3.zero, Quaternion.identity, transform.parent);
+            //_spawnedObj.transform.position = Vector3.zero + (transform.parent.up * .001f);
+            _spawnedObj.transform.position = Vector3.zero;
             // have the spawned object start at a small scale before 'growing' to the assigned scale
             _targetScale = _spawnedObj.transform.localScale;
             _spawnedObj.transform.localScale = new Vector3(_minScale, _minScale, _minScale);
@@ -86,6 +89,7 @@ public class Spawner : MonoBehaviour {
         //_spawnedObj.transform.parent = null;
         //_spawnedObj.transform.parent = CombatManager.Instance.gameObject.transform;
         _spawnedObj.AddComponent<SimpleKeyboardController>();
+        _spawnedObj.transform.position = transform.position;
     }
 
     // Update is called once per frame
